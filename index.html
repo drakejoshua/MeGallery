@@ -12,10 +12,228 @@
 
     <!-- link to sweetalert2.js cdn resource -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- link to the google icons cdn resource -->
+    <link rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
-    <nav>
-        
+<body class="h-screen flex flex-col gap-y-3 pb-10">
+
+    <!-- the page's navbar -->
+    <nav class="py-5">
+
+        <!-- the page's marginal container -->
+        <div class="mx-auto w-4/5 flex justify-between items-center">
+
+            <!-- the navbar logo -->
+            <a href="#" class="flex items-center gap-x-3 font-semibold text-xl">
+                <span class="material-symbols-outlined align-baseline text-4xl text-red-300">
+                    gallery_thumbnail
+                </span>
+
+                <span>
+                    MeGallery
+                </span>
+            </a>
+
+            <!-- the navbar attribution text -->
+            <span class="capitalize">
+                made by
+
+                <a href="#" class="underline">
+                    mabawonku joshua
+                </a>
+            </span>
+        </div>
     </nav>
+
+    <!-- the gallery section -->
+    <section class="flex-grow overflow-auto">
+
+        <!-- the page's marginal container -->
+        <div class="mx-auto w-4/5 h-full flex gap-10 flex-wrap justify-center">
+
+            <!-- the image cards -->
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/brooklyn_bridge.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/brooklyn_bridge.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="brooklyn bridge.jpeg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/burj_khalifa.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/burj_khalifa.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="burj khalifa.jpeg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/central_park.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/central_park.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="central park.jpeg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/eiffel_tower.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/eiffel_tower.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="eiffel tower.jpg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/empire_state.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/empire_state.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="empire state.jpg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/london.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/london.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="london.jpg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/london_bridge.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/london_bridge.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="london bridge.jpg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/san_francisco.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/san_francisco.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="san francisco.jpg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+            
+            <div class="w-96 h-1/2 relative top-0 overflow-hidden rounded-lg group/card">
+                <img src="./images/statue_of_liberty.jpg" alt="" class="w-full h-full">
+
+                <span class="material-symbols-outlined absolute -right-10 transition-all duration-500 group-hover/card:top-3 group-hover/card:right-3 text-white">
+                    favorite
+                </span>
+
+                <a href="./images/statue_of_liberty.jpg" class="absolute bottom-0 w-full h-0 bg-blue-400 flex justify-center items-center
+                    gap-x-3 overflow-hidden text-white transition-all duration-500 group-hover/card:h-12" download="statue_of_liberty.jpg">
+
+                    <span class="material-symbols-outlined">
+                        download
+                    </span>
+
+                    <span class="capitalize">
+                        download image
+                    </span>
+                </a>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
